@@ -8,3 +8,7 @@ install: true
 script: 
   - cd myproject 
   - mvn clean verify
+
+cache:
+   directories:
+      - $HOME/.m2
