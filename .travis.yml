@@ -17,7 +17,7 @@ install: true
 
 script: 
   - cd myproject 
-  - mvn -f clean verify -Pjacoco
+  - mvn clean verify -Pjacoco
 
 cache:
    directories:
